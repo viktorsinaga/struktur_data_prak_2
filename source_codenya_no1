@@ -12,7 +12,7 @@ film daftar[10];
 int n,i,pilih;
 
 int main () {
-  yu: //ini tag biar bisa kembali
+  ee:
   cout<<"\n====================\n";
   cout<<"Movie ~~\n";
   cout<<"====================\n";
@@ -33,11 +33,11 @@ int main () {
         cin>>daftar[i].tahun;
       }
       getch();
-      goto yu;
+      goto ee;
 
     case 2:
       cout<<"\n====================\n";
-      cout<<"Ini Daftar Film-nyan~~";
+      cout<<"Ini Daftar Filmnya lurr;
       cout<<"\n====================\n";
       for (i=1; i<=n; i++) {
         cout<<endl<<endl<<"Data Film ke-  "<<i<<endl;
@@ -46,10 +46,10 @@ int main () {
       }
       cout<<"\n";
       getch();
-      goto yu;
+      goto ee;
 
     default:
-      cout<<"\nTerimakasih.."<<endl;
+      cout<<"\n suwun gan..."<<endl;
       break;
 }
 
